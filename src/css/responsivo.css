@@ -1,0 +1,118 @@
+@media(max-width: 1195px){
+    .pergunta h1{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    .pergunta p{
+        font-size: 1.8rem;
+        font-weight: 400;
+        padding-top: 20px;
+        padding-right: 50px ;
+    }
+}
+
+@media(max-width: 890px){
+    .formulario{
+        background-color: #fff;
+        height: 70vh;
+        padding: 30px;
+    }
+    
+    .formulario input{
+        height: 5vh;
+    }
+    
+    .formulario textarea{
+        height: 12vh;
+        resize: none;
+        padding: 10px;
+    }
+    .aviso{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+       
+    }
+}
+
+@media(max-width: 690px){
+    main{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .pergunta, .formulario{
+        width: 80%;
+    }
+    .pergunta p, .pergunta h1{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .pergunta{
+        padding-bottom: 10px;
+    }
+    .formulario{
+        background-color: #fff;
+        height: 70vh;
+        padding: 30px;
+    }
+    
+    .formulario input{
+        height: 5vh;
+    }
+    
+    .formulario textarea{
+        height: 12vh;
+        resize: none;
+        padding: 10px;
+    }
+    .aviso{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+       
+    }
+}
+
+@media(max-width: 370px){
+    main{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .pergunta, .formulario{
+        width: 80%;
+    }
+    .pergunta p, .pergunta h1{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .pergunta{
+        padding-bottom: 10px;
+    }
+    .formulario{
+        background-color: #fff;
+        height: 60vh;
+        padding: 30px;
+    }
+    
+    .formulario input{
+        height: 5vh;
+    }
+    
+    .formulario textarea{
+        height: 12vh;
+        resize: none;
+        padding: 10px;
+    }
+    .aviso{
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+       
+    }
+
+    .obrigatorio{
+        margin-bottom: 5px;
+    }
+}
